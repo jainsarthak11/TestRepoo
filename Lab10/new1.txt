@@ -1,0 +1,11 @@
+Review the C# Threads and Tasks code demos from Lecture #9.
+
+Pay particular attention to the TaskWithContinuation demo which uses async await in the function getSumWithAwaitAsync(...).
+
+
+Write a small C# console application that searches a text file for a specified string asynchronously by awaiting on a search function.
+
+The code after the await acts as a callback, so you will announce your results in that code.
+
+
+Modify your application to search for the text asynchronously in all the files in a test folder. Do that by calling your async text search function while looping over all the files in the test folder.
